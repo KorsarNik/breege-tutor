@@ -4,34 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Breege Corrigan – English &amp; Irish Tutor</title>
-<meta name="description" content="English and Irish tutor in Nenagh, Co. Tipperary and online. Primary school, Junior Cycle and Leaving Cert Irish grinds, intensive oral practice, and English lessons for all levels. Over 30 years of teaching experience.">
+<meta name="description" content="Irish grinds for Primary, Junior Cycle and Leaving Cert, with intensive oral exam practice. English lessons for all levels. Online and in Nenagh, Co. Tipperary. Over 30 years of teaching experience.">
 <style>
   :root { --green:#2f6b4f; --light:#f3f7f4; --text:#1f2a24; --muted:#5b6b62; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:Georgia, "Times New Roman", serif; color:var(--text); background:#fff; line-height:1.6; }
   .wrap { max-width:900px; margin:0 auto; padding:0 16px; }
-  header { background:var(--green); color:#fff; padding:64px 0; }
-  .hero { display:grid; grid-template-columns:1fr 260px; gap:32px; align-items:center; }
-  .hero img { width:100%; border-radius:12px; border:4px solid #fff; }
-  header h1 { font-size:2.6rem; margin:0 0 8px; }
-  header p { margin:4px 0; font-size:1.2rem; }
-  .btn { display:inline-block; margin-top:24px; background:#fff; color:var(--green); padding:14px 28px; border-radius:6px; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif; }
+  header { background:var(--green); color:#fff; padding:56px 0; }
+  .hero { display:grid; grid-template-columns:1fr 240px; gap:32px; align-items:center; }
+  .hero img { width:100%; aspect-ratio:1/1; object-fit:cover; object-position:50% 20%; border-radius:12px; border:4px solid #fff; }
+  header h1 { font-size:2.2rem; margin:0 0 12px; line-height:1.2; }
+  .lead { font-size:1.25rem; margin:0 0 20px; }
+  .facts { list-style:none; padding:0; margin:0 0 8px; display:flex; flex-wrap:wrap; gap:8px; font-family:Arial, sans-serif; font-size:.9rem; }
+  .facts li { background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.35); border-radius:20px; padding:4px 12px; }
+  .btns { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+  .btn { display:inline-block; background:#fff; color:var(--green); padding:14px 24px; border-radius:6px; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif; }
+  .btn.ghost { background:transparent; color:#fff; border:2px solid #fff; }
+  .btn.book { background:var(--green); color:#fff; }
   section { padding:48px 0; }
   section:nth-of-type(even) { background:var(--light); }
   h2 { color:var(--green); font-size:1.7rem; margin-top:0; }
   .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
+  .highlight { background:#fff; border:2px solid var(--green); border-radius:10px; padding:16px 20px; margin-top:24px; }
+  .highlight h3 { margin:0 0 6px; color:var(--green); }
+  .highlight p { margin:0; }
   .steps { counter-reset:s; list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:16px; }
   .steps li { background:#fff; border:1px solid #dde6e0; border-radius:8px; padding:16px; }
   .steps li::before { counter-increment:s; content:counter(s); display:block; font-size:1.6rem; color:var(--green); font-weight:bold; }
   table { width:100%; border-collapse:collapse; background:#fff; }
   th, td { padding:10px; border-bottom:1px solid #dde6e0; text-align:left; }
   blockquote { margin:0 0 16px; background:#fff; border-left:4px solid var(--green); padding:12px 16px; }
-  .sample { display:inline-block; background:#fff3c4; font-family:Arial, sans-serif; font-size:.75rem; padding:2px 6px; border-radius:3px; margin-bottom:4px; }
-  .booking { border:2px dashed var(--green); border-radius:8px; padding:48px 16px; text-align:center; color:var(--muted); background:#fff; }
   footer { background:var(--text); color:#ccd; padding:32px 0; font-size:.9rem; }
   details { margin-bottom:12px; }
   summary { font-weight:bold; cursor:pointer; }
-  @media (max-width:640px) { .hero { grid-template-columns:1fr; } .hero img { max-width:220px; } }
+  @media (max-width:640px) {
+    .hero { grid-template-columns:1fr; }
+    .hero img { max-width:200px; order:-1; }
+    header h1 { font-size:1.8rem; }
+  }
 </style>
 </head>
 <body>
@@ -40,33 +50,33 @@
   <div class="wrap hero">
     <div>
       <h1>Breege Corrigan – English &amp; Irish Tutor</h1>
-      <p>Online and in Nenagh, Co. Tipperary</p>
-      <p style="opacity:.85">Over 30 years of teaching experience. Clear, friendly, one-to-one lessons.</p>
-      <a class="btn" href="#book">Book a free 15-minute introduction</a>
+      <p class="lead">Irish grinds for Primary, Junior Cycle and Leaving Cert. English lessons for all levels. Online and in Nenagh, Co. Tipperary.</p>
+      <ul class="facts">
+        <li>30+ years teaching</li>
+        <li>Qualified teacher (HDipEd, TEFL)</li>
+        <li>Intensive oral exam practice</li>
+      </ul>
+      <div class="btns">
+        <a class="btn" href="#book">Book a free 15-minute call</a>
+        <a class="btn ghost" href="#prices">See prices</a>
+      </div>
     </div>
-    <img src="breege.jpg" alt="Breege Corrigan">
+    <img src="breege-square.jpg" alt="Breege Corrigan, English and Irish tutor in Nenagh">
   </div>
 </header>
 
-<section>
-  <div class="wrap">
-    <h2>About me</h2>
-    <p>Hello, I'm Breege! I teach English and Irish, and I have done it for more than 30 years. I am patient, I explain things clearly, and I want every student to leave a lesson feeling more confident.</p>
-    <h3>A few things about me</h3>
-    <ul>
-      <li>I studied Irish at University College Galway and I am a fully qualified teacher (Higher Diploma in Education, TEFL).</li>
-      <li>I have taught in Ireland, the UK and Poland: in schools, colleges and adult education.</li>
-      <li>I have worked at Tipperary FET College since 2002, and I was Acting Principal there in 2025–2026.</li>
-      <li>I love helping students get ready for the Irish oral exam.</li>
-      <li>I live in Nenagh. When I am not teaching, you will find me walking, swimming or planning my next trip.</li>
-    </ul>
-  </div>
-</section>
-
-<section>
+<section id="teach">
   <div class="wrap">
     <h2>What I teach</h2>
     <div class="cols">
+      <div>
+        <h3>Irish</h3>
+        <ul>
+          <li>Primary school Irish: help with homework, reading, spelling and speaking</li>
+          <li>Junior Cycle Irish: all levels</li>
+          <li>Leaving Certificate Irish: Higher, Ordinary and Foundation level</li>
+        </ul>
+      </div>
       <div>
         <h3>English</h3>
         <ul>
@@ -77,28 +87,36 @@
           <li>All levels, from beginner to advanced</li>
         </ul>
       </div>
-      <div>
-        <h3>Irish</h3>
-        <ul>
-          <li>Primary school Irish: help with homework, reading, spelling and speaking</li>
-          <li>Junior Cycle Irish: all levels</li>
-          <li>Leaving Certificate Irish: Higher, Ordinary and Foundation level</li>
-          <li><b>Intensive oral practice</b> for the Junior Cycle and Leaving Certificate oral exams</li>
-        </ul>
-      </div>
+    </div>
+    <div class="highlight">
+      <h3>Junior Cycle and Leaving Cert Irish oral: intensive practice</h3>
+      <p>Many students feel nervous about the Irish oral exam. We practise the exam format again and again, with real questions, until your child can speak with confidence on the day.</p>
     </div>
     <p>Irish grinds and English tutoring, one-to-one.</p>
   </div>
 </section>
 
-<section>
+<section id="reviews">
   <div class="wrap">
-    <h2>Why students choose me</h2>
+    <h2>What my students say</h2>
+    <blockquote>"An amazing, dedicated and patient teacher! She explains everything clearly and makes learning English enjoyable and effective. Her professionalism, kindness and passion for teaching are truly appreciated. I highly recommend her!"<br><small>Valentina, Moldova – English student</small></blockquote>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <h2>Lessons and prices</h2>
+    <table>
+      <tr><th>Lesson</th><th>Length</th><th>Price</th></tr>
+      <tr><td>Free introduction</td><td>15 minutes</td><td>Free</td></tr>
+      <tr><td>Irish lesson</td><td>45 minutes</td><td>€50</td></tr>
+      <tr><td>English lesson</td><td>45 minutes</td><td>€35</td></tr>
+    </table>
     <ul>
-      <li>Over 30 years of teaching, in schools, colleges and adult education</li>
-      <li>Qualified teacher: BA, Higher Diploma in Education, TEFL</li>
-      <li>I know the Junior Cycle and Leaving Certificate Irish exams well</li>
-      <li>Experience with learners of many backgrounds and with specific learning difficulties, such as dyslexia</li>
+      <li>Online by Google Meet, or in person in Nenagh.</li>
+      <li>You pay by card when you book.</li>
+      <li>Free cancellation up to 24 hours before the lesson. Later cancellations are not refunded.</li>
+      <li>If I need to cancel, I will tell you as early as possible. You can choose a new time or get a full refund.</li>
     </ul>
   </div>
 </section>
@@ -115,42 +133,39 @@
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <h2>Lessons and prices</h2>
-    <table>
-      <tr><th>Lesson</th><th>Length</th><th>Price</th></tr>
-      <tr><td>Free introduction</td><td>15 minutes</td><td>Free</td></tr>
-      <tr><td>English lesson</td><td>45 minutes</td><td>€35</td></tr>
-      <tr><td>Irish lesson</td><td>45 minutes</td><td>€50</td></tr>
-    </table>
-    <ul>
-      <li>Online by Google Meet, or in person in Nenagh.</li>
-      <li>You pay by card when you book.</li>
-      <li>Free cancellation up to 24 hours before the lesson. Later cancellations are not refunded.</li>
-      <li>If I need to cancel, I will tell you as early as possible. You can choose a new time or get a full refund.</li>
-    </ul>
-  </div>
-</section>
-
 <section id="book">
   <div class="wrap">
     <h2>Book a lesson</h2>
-    <div id="cal-booking" style="width:100%;min-height:640px;overflow:auto"></div>
-    <p style="font-size:.9rem;color:var(--muted)">If the calendar does not load, <a href="https://cal.com/breegecorrigan">open the booking page</a>.</p>
+    <h3>Start with a free 15-minute call</h3>
+    <p>Choose a time below. We talk about your goals, or your child's, and I suggest how I can help.</p>
+    <div id="cal-booking" style="width:100%;min-height:560px;overflow:auto"></div>
+    <p style="font-size:.9rem;color:var(--muted)">If the calendar does not load, <a href="https://cal.com/breegecorrigan/intro">open the booking page</a>.</p>
+    <h3>Already know what you need? Book a lesson</h3>
+    <div class="btns">
+      <a class="btn book" href="https://cal.com/breegecorrigan/irish" data-cal-link="breegecorrigan/irish" data-cal-config='{"layout":"month_view"}'>Book an Irish lesson – €50</a>
+      <a class="btn book" href="https://cal.com/breegecorrigan/english" data-cal-link="breegecorrigan/english" data-cal-config='{"layout":"month_view"}'>Book an English lesson – €35</a>
+    </div>
     <script type="text/javascript">
       (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
       Cal("init", { origin: "https://cal.com" });
-      Cal("inline", { elementOrSelector: "#cal-booking", calLink: "breegecorrigan", layout: "month_view" });
+      Cal("inline", { elementOrSelector: "#cal-booking", calLink: "breegecorrigan/intro", layout: "month_view" });
       Cal("ui", { layout: "month_view", styles: { branding: { brandColor: "#2f6b4f" } } });
     </script>
   </div>
 </section>
 
-<section>
+<section id="about">
   <div class="wrap">
-    <h2>What my students say</h2>
-    <blockquote>"An amazing, dedicated and patient teacher! She explains everything clearly and makes learning English enjoyable and effective. Her professionalism, kindness and passion for teaching are truly appreciated. I highly recommend her!"<br><small>Valentina, Moldova – English student</small></blockquote>
+    <h2>About me</h2>
+    <p>Hello, I'm Breege! I teach English and Irish, and I have done it for more than 30 years. I am patient, I explain things clearly, and I want every student to leave a lesson feeling more confident.</p>
+    <ul>
+      <li>I studied Irish at University College Galway and I am a fully qualified teacher (Higher Diploma in Education, TEFL).</li>
+      <li>I have worked at Tipperary FET College since 2002, and I was Acting Principal there in 2025–2026.</li>
+      <li>I know the Junior Cycle and Leaving Certificate Irish exams well.</li>
+      <li>I have taught in Ireland, the UK and Poland, in schools, colleges and adult education.</li>
+      <li>I have experience with learners of many backgrounds and with specific learning difficulties, such as dyslexia.</li>
+      <li>I live in Nenagh. When I am not teaching, you will find me walking, swimming or planning my next trip.</li>
+    </ul>
   </div>
 </section>
 
